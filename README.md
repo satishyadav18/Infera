@@ -1,0 +1,1 @@
+Infera is a full stack AI App using PERN Stack where users have free plan to generate articles and blog titles and have to upgrade to premium plan for other features like image-generation, background-removal, object-removal from an image and resume-review.
