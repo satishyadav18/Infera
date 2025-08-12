@@ -27,7 +27,7 @@ const GenerateImages = () => {
     try{
       setLoading(true);
 
-      const prompt = `Generate an image of ${input} in style ${selectedStyle}`
+      const prompt = `Generate an image of ${input} in ${selectedStyle}`
 
       const { data } = await axios.post('/api/ai/generate-image', { prompt, publish}, {
         headers: {
