@@ -34,7 +34,7 @@ export const toggleLikeCreation = async (req, res) => {
         const { userId } = req.auth();
         const { id } = req.body;
 
-        const [creation] = await sql`SELECT * FROM creations WHERE id = ${id} AND user_id = ${userId}`;
+        const [creation] = await sql`SELECT * FROM creations WHERE id = ${id}`;
 
         if (!creation) {
             return res.json({ success: false, message: 'Creation not found' });
