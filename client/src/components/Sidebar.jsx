@@ -106,7 +106,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         </div>
       </div>
 
-      <div className="mt-7 border-t border-gray-200 p-4 px-7 py-6 flex items-center justify-between bg-white">
+      <div className="mt-7 border-t border-gray-200 p-4 px-7 py-5 flex items-center justify-between bg-white">
         <div onClick={openUserProfile} className="flex gap-2 items-center cursor-pointer">
           <img src={user.imageUrl} className="w-8 rounded-full" alt="" />
           <div>
