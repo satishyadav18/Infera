@@ -73,7 +73,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
       className={`
         bg-white border-r border-gray-200
         flex flex-col h-screen
-        fixed left-0 top-10 z-50
+        fixed left-0 top-14 z-50
         transform transition-transform duration-300 ease-in-out
         ${sidebar ? "translate-x-0" : "-translate-x-full"}
         sm:relative sm:translate-x-0
