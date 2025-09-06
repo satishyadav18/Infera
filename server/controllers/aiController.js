@@ -73,7 +73,7 @@ export const generateBlogTitle = async (req, res) => {
             model: "gemini-2.0-flash",
             messages: [{ role: "user", content: prompt }],
             temperature: 0.7,
-            max_tokens: 200,
+            max_tokens: 5000,
         });
 
         const content = response.choices[0].message.content;
